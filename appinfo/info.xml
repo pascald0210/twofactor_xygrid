@@ -5,7 +5,7 @@
   <name>Code personnel sur grille</name>
   <summary>Vérification facultative sur une grille numérique aléatoire.</summary>
   <description>Grille de deux lignes et cinq colonnes, avec validation de six coordonnées.</description>
-  <version>1.2.0</version>
+  <version>1.2.1</version>
   <licence>agpl</licence>
   <author>Contributeurs de Code personnel sur grille</author>
   <namespace>TwoFactorXYGrid</namespace>
