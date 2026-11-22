@@ -1,0 +1,19 @@
+{
+  "translations": {
+    "Grid administration": "Rasterverwaltung",
+    "Internal user ID": "Interne Benutzer-ID",
+    "Check grid status": "Rasterstatus prüfen",
+    "Unlock grid": "Raster entsperren",
+    "Account not found.": "Konto nicht gefunden.",
+    "Grid not enabled.": "Raster nicht aktiviert.",
+    "Grid is not locked. No change needed.": "Das Raster ist nicht gesperrt. Keine Aktion erforderlich.",
+    "Time remaining (min):": "Restzeit (Min.):",
+    "Verify the user’s identity first. Unlocking grants three attempts with the existing code.": "Prüfen Sie zuerst die Identität. Das Entsperren gewährt drei Versuche mit dem bisherigen Code.",
+    "Unlock the grid for this account?": "Raster für dieses Konto entsperren?",
+    "Grid unlocked. The code is unchanged.": "Raster entsperrt. Der Code ist unverändert.",
+    "Status changed. Check the account again.": "Der Status hat sich geändert. Prüfen Sie das Konto erneut.",
+    "Access denied or confirmation required. Sign in again as an administrator and check the account again.": "Zugriff verweigert oder Bestätigung erforderlich. Melden Sie sich erneut als Administrator an und prüfen Sie das Konto.",
+    "Result unknown. Check the account before retrying.": "Ergebnis unbekannt. Prüfen Sie das Konto vor einem neuen Versuch."
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}

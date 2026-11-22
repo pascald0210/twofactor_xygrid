@@ -1,0 +1,19 @@
+{
+  "translations": {
+    "Grid administration": "Grid administration",
+    "Internal user ID": "Internal user ID",
+    "Check grid status": "Check grid status",
+    "Unlock grid": "Unlock grid",
+    "Account not found.": "Account not found.",
+    "Grid not enabled.": "Grid not enabled.",
+    "Grid is not locked. No change needed.": "Grid is not locked. No change needed.",
+    "Time remaining (min):": "Time remaining (min):",
+    "Verify the user’s identity first. Unlocking grants three attempts with the existing code.": "Verify the user’s identity first. Unlocking grants three attempts with the existing code.",
+    "Unlock the grid for this account?": "Unlock the grid for this account?",
+    "Grid unlocked. The code is unchanged.": "Grid unlocked. The code is unchanged.",
+    "Status changed. Check the account again.": "Status changed. Check the account again.",
+    "Access denied or confirmation required. Sign in again as an administrator and check the account again.": "Access denied or confirmation required. Sign in again as an administrator and check the account again.",
+    "Result unknown. Check the account before retrying.": "Result unknown. Check the account before retrying."
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}

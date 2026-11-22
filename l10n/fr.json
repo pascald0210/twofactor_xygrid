@@ -1,0 +1,19 @@
+{
+  "translations": {
+    "Grid administration": "Administration de la grille",
+    "Internal user ID": "Identifiant interne de l’utilisateur",
+    "Check grid status": "Consulter l’état de la grille",
+    "Unlock grid": "Déverrouiller la grille",
+    "Account not found.": "Compte introuvable.",
+    "Grid not enabled.": "Grille non activée.",
+    "Grid is not locked. No change needed.": "La grille n’est pas verrouillée. Aucune intervention nécessaire.",
+    "Time remaining (min):": "Durée restante (min) :",
+    "Verify the user’s identity first. Unlocking grants three attempts with the existing code.": "Vérifiez d’abord l’identité de l’utilisateur. Le déverrouillage rend trois essais avec le code existant.",
+    "Unlock the grid for this account?": "Déverrouiller la grille de ce compte ?",
+    "Grid unlocked. The code is unchanged.": "Grille déverrouillée. Le code reste inchangé.",
+    "Status changed. Check the account again.": "L’état a changé. Consultez à nouveau le compte.",
+    "Access denied or confirmation required. Sign in again as an administrator and check the account again.": "Accès refusé ou confirmation requise. Reconnectez-vous comme administrateur, puis consultez à nouveau le compte.",
+    "Result unknown. Check the account before retrying.": "Résultat inconnu. Consultez l’état du compte avant de réessayer."
+  },
+  "pluralForm": "nplurals=2; plural=(n > 1);"
+}

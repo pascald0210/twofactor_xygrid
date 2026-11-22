@@ -1,0 +1,19 @@
+{
+  "translations": {
+    "Grid administration": "Administración de la cuadrícula",
+    "Internal user ID": "Identificador interno del usuario",
+    "Check grid status": "Consultar el estado de la cuadrícula",
+    "Unlock grid": "Desbloquear la cuadrícula",
+    "Account not found.": "Cuenta no encontrada.",
+    "Grid not enabled.": "Cuadrícula no activada.",
+    "Grid is not locked. No change needed.": "La cuadrícula no está bloqueada. No se requiere ninguna acción.",
+    "Time remaining (min):": "Tiempo restante (min):",
+    "Verify the user’s identity first. Unlocking grants three attempts with the existing code.": "Verifique primero la identidad del usuario. El desbloqueo concede tres intentos con el código actual.",
+    "Unlock the grid for this account?": "¿Desbloquear la cuadrícula de esta cuenta?",
+    "Grid unlocked. The code is unchanged.": "Cuadrícula desbloqueada. El código no ha cambiado.",
+    "Status changed. Check the account again.": "El estado ha cambiado. Vuelva a consultar la cuenta.",
+    "Access denied or confirmation required. Sign in again as an administrator and check the account again.": "Acceso denegado o se requiere confirmación. Inicie sesión de nuevo como administrador y consulte la cuenta.",
+    "Result unknown. Check the account before retrying.": "Resultado desconocido. Consulte la cuenta antes de repetir la operación."
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}

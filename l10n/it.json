@@ -1,0 +1,19 @@
+{
+  "translations": {
+    "Grid administration": "Amministrazione della griglia",
+    "Internal user ID": "ID interno dell’utente",
+    "Check grid status": "Verifica lo stato della griglia",
+    "Unlock grid": "Sblocca la griglia",
+    "Account not found.": "Account non trovato.",
+    "Grid not enabled.": "Griglia non attivata.",
+    "Grid is not locked. No change needed.": "La griglia non è bloccata. Non è necessario intervenire.",
+    "Time remaining (min):": "Tempo rimanente (min):",
+    "Verify the user’s identity first. Unlocking grants three attempts with the existing code.": "Verifica prima l’identità dell’utente. Lo sblocco concede tre tentativi con il codice esistente.",
+    "Unlock the grid for this account?": "Sbloccare la griglia di questo account?",
+    "Grid unlocked. The code is unchanged.": "Griglia sbloccata. Il codice non è cambiato.",
+    "Status changed. Check the account again.": "Lo stato è cambiato. Verifica di nuovo l’account.",
+    "Access denied or confirmation required. Sign in again as an administrator and check the account again.": "Accesso negato o conferma richiesta. Accedi nuovamente come amministratore e verifica l’account.",
+    "Result unknown. Check the account before retrying.": "Esito sconosciuto. Verifica lo stato dell’account prima di riprovare."
+  },
+  "pluralForm": "nplurals=2; plural=(n != 1);"
+}

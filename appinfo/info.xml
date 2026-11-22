@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+  <id>twofactor_xygrid</id>
+  <name>Code personnel sur grille</name>
+  <summary>Vérification facultative sur une grille numérique aléatoire.</summary>
+  <description>Grille de deux lignes et cinq colonnes, avec validation de six coordonnées.</description>
+  <version>1.2.0</version>
+  <licence>agpl</licence>
+  <author>Contributeurs de Code personnel sur grille</author>
+  <namespace>TwoFactorXYGrid</namespace>
+  <category>security</category>
+  <dependencies>
+    <nextcloud min-version="33" max-version="34"/>
+  </dependencies>
+  <commands>
+    <command>OCA\TwoFactorXYGrid\Command\Manage</command>
+  </commands>
+  <settings>
+    <admin>OCA\TwoFactorXYGrid\Settings\GridAdmin</admin>
+    <personal>OCA\TwoFactorXYGrid\Settings\Personal</personal>
+  </settings>
+  <two-factor-providers>
+    <provider>OCA\TwoFactorXYGrid\Provider\Grid</provider>
+  </two-factor-providers>
+</info>
