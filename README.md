@@ -10,5 +10,3 @@ Aucune dépendance Composer ou npm à télécharger pour construire le paquet.
 - Fournisseur natif : `xygrid`. Application : `twofactor_xygrid`.
 - Licence déclarée : GNU Affero General Public License, version 3 ou ultérieure
   (SPDX : AGPL-3.0-or-later).
-
-Déverrouillage administratif : `docs/DEVERROUILLAGE_ADMIN.md`.
