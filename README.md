@@ -7,3 +7,5 @@ Administrative Unlock: docs/DEVERROUILLAGE_ADMIN.md.
 Test without Nextcloud: php tests/codec.php.
 Native provider: xygrid. Application: twofactor_xygrid.
 Declared license: GNU Affero General Public License, version 3 or later (SPDX: AGPL-3.0-or-later).
+
+![Grid example](https://github.com/pascald0210/twofactor_xygrid/blob/main/img/twofactor%20xygrid%20-%20grid%20example.png)
