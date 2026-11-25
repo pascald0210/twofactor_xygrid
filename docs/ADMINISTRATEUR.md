@@ -1,6 +1,6 @@
 # Code personnel sur grille — Manuel administrateur
 
-Version applicative : 1.0.0. Identifiant de l’application : `twofactor_xygrid`.
+Identifiant de l’application : `twofactor_xygrid`.
 Identifiant du fournisseur : `xygrid`. Commande spécifique : `xygrid:manage`.
 
 ## 1. Périmètre et décision de déploiement
@@ -13,14 +13,13 @@ L’application ne modifie pas la politique globale de l’instance.
 Le secret permanent est un nombre de six chiffres, zéros initiaux compris.
 Il ne change pas à chaque connexion ; seule la permutation change.
 Mot de passe et code mémorisé ne constituent pas deux facteurs indépendants.
-Ne déployez pas cette alternative pour des comptes dont la politique exige un facteur de possession.
 Une grille n’est pas une protection contre un navigateur compromis, l’hameçonnage en temps réel,
 une caméra qui filme l’écran et les clics, ou un serveur compromis.
 
 ## 2. Prérequis et préparation
 
 - Manifeste ciblant Nextcloud 33 et 34 ; tester le correctif exact, le backend utilisateur,
-  le moteur de base et le thème réellement utilisés. Ne pas forcer l’installation sur une autre majeure.
+  le moteur de base et le thème réellement utilisés. 
 - Utiliser HTTPS, interdire le cache partagé sur la connexion et les paramètres personnels.
 - En cluster : mêmes données applicatives, même secret d’instance, sessions cohérentes et horloges synchronisées.
 - Vérifier les sauvegardes de la base, de la configuration (notamment `secret`) et des sources.
@@ -28,16 +27,11 @@ une caméra qui filme l’écran et les clics, ou un serveur compromis.
   d’identité avant déverrouillage ou révocation.
 - Python 3.8+ n’est requis que pour construire. Le serveur utilise le PHP de son installation Nextcloud.
 - Aucun service distant ni paquet JavaScript externe n’est nécessaire. JavaScript est requis côté navigateur.
-- Paquet local non signé et non audité. Faire revoir le code avant utilisation sur des comptes réels.
+- Paquet local non signé et non audité. 
 
 ## 3. Construction et contrôles hors serveur
 
 Dans un dossier vide, placer uniquement `generer_grille.py`, puis lancer :
-
-    python3 generer_grille.py
-    php twofactor_xygrid/tests/codec.php
-    find twofactor_xygrid -name '*.php' -exec php -l {} \;
-    tar -tzf twofactor_xygrid-1.0.0.tar.gz
 
 Le générateur refuse d’écraser ses sorties. Le test du codec n’est pas un test Nextcloud.
 Le contrôle PHP doit être fait avec une version de PHP compatible avec la cible.
